@@ -22,7 +22,7 @@
 		},
 		"ghcr.io/devcontainers/features/python:1": {
 			"installTools": true,
-			"toolsToInstall": ""
+			"toolsToInstall": "pipenv,virtualenv"
 		},
 		"ghcr.io/devcontainers-extra/features/hatch:2": {
 			"version": "latest"
