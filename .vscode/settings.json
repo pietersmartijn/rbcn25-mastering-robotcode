@@ -1,0 +1,7 @@
+{
+    "robotcode.robocop.enabled": false,
+    "robotcode.profiles": [
+        "dev",
+        "headless"
+    ]
+}

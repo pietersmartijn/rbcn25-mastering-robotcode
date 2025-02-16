@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on linux)" generated="2025-02-12T14:55:14.256227" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/workspaces/rbcn25-mastering-robotcode/tests">
+<suite id="s1-s1" name="First" source="/workspaces/rbcn25-mastering-robotcode/tests/first.robot">
+<test id="s1-s1-t1" name="first" line="11">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-02-12T14:55:14.390616" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/workspaces/rbcn25-mastering-robotcode/results/browser/traces/temp/676e6297-d2e9-4934-a9d7-038603b10b22"}</msg>
+<msg time="2025-02-12T14:55:14.395940" level="INFO">Starting Browser process /home/devcontainer/.local/share/hatch/env/virtual/demoproject/7oZHHRid/demoproject/lib/python3.13/site-packages/Browser/wrapper/index.js using port 59853</msg>
+<msg time="2025-02-12T14:55:14.396092" level="INFO">Node startup parameters: ['node', '/home/devcontainer/.local/share/hatch/env/virtual/demoproject/7oZHHRid/demoproject/lib/python3.13/site-packages/Browser/wrapper/index.js', '59853']</msg>
+<msg time="2025-02-12T14:55:14.882873" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/workspaces/rbcn25-mastering-robotcode/results/browser/traces/temp/676e6297-d2e9-4934-a9d7-038603b10b22"}</msg>
+<arg>${BROWSER}</arg>
+<arg>${HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-02-12T14:55:14.389774" elapsed="0.493617"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-02-12T14:55:15.027573" level="INFO">Successfully initialized new page object and opened url: localhost:3000</msg>
+<msg time="2025-02-12T14:55:15.027868" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${APP_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-02-12T14:55:14.883985" elapsed="0.144231"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2025-02-12T14:55:15.029548" level="INFO">Types the text 'do something' in the given field.</msg>
+<arg>input[id=todo-input]</arg>
+<arg>do something</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-02-12T14:55:15.028849" elapsed="0.060998"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-02-12T14:55:15.090857" level="INFO">Clicks the element 'button[id="add-todo-button"]'.</msg>
+<arg>button[id="add-todo-button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-02-12T14:55:15.090297" elapsed="0.056199"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-02-12T14:55:15.227994" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-02-12T14:55:15.146842" elapsed="0.081548"/>
+</kw>
+<msg time="2025-02-12T14:55:15.232180" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-02-12T14:55:15.241740" level="INFO">Switching context to context=fa7b5d45-8ad8-4ccc-833b-7fe7988b9fff in CURRENT</msg>
+<msg time="2025-02-12T14:55:15.246330" level="INFO">Successfully changed active context: context=fa7b5d45-8ad8-4ccc-833b-7fe7988b9fff</msg>
+<msg time="2025-02-12T14:55:15.253829" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-02-12T14:55:14.388528" elapsed="0.840425"/>
+</test>
+<meta name="URL">localhost:3000</meta>
+<status status="PASS" start="2025-02-12T14:55:14.274227" elapsed="0.980760"/>
+</suite>
+<status status="PASS" start="2025-02-12T14:55:14.258590" elapsed="1.001019"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="First" id="s1-s1" pass="1" fail="0" skip="0">Tests.First</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

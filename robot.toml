@@ -1,0 +1,19 @@
+paths = "tests"
+
+[metadata]
+
+[profiles.headless]
+extend-variables = {"HEADLESS"="ON"}
+
+[profiles.headfull]
+[profiles.headfull.extend-variables]
+"HEADLESS"="OFF"
+
+[profiles.dev.extend-variables]
+APP_URL = "localhost:3000"
+
+[profiles.test.extend-variables]
+APP_URL = "localhost:3001"
+
+[profiles.dev_headless]
+inherits = ["dev","headless"]

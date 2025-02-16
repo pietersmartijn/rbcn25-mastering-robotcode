@@ -1,0 +1,40 @@
+{"level":30,"time":"2025-02-12T14:55:14.798Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Listening on 59853"}
+(node:84444) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-02-12T14:55:14.824Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-02-12T14:55:14.880Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-02-12T14:55:14.881Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-02-12T14:55:14.881Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-02-12T14:55:14.887Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-02-12T14:55:14.888Z","pid":84444,"hostname":"codespaces-d0d085","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-02-12T14:55:14.898Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Changed active context"}
+{"level":30,"time":"2025-02-12T14:55:14.926Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Video path: undefined"}
+{"level":30,"time":"2025-02-12T14:55:14.927Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Changed active page"}
+{"level":30,"time":"2025-02-12T14:55:15.024Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method newPage"}
+{"level":30,"time":"2025-02-12T14:55:15.031Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-02-12T14:55:15.031Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Strict mode is enabled, find Locator with input[id=todo-input] in page."}
+{"level":30,"time":"2025-02-12T14:55:15.088Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method typeText"}
+{"level":30,"time":"2025-02-12T14:55:15.092Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method click"}
+{"level":30,"time":"2025-02-12T14:55:15.093Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Strict mode is enabled, find Locator with button[id=\"add-todo-button\"] in page."}
+{"level":30,"time":"2025-02-12T14:55:15.145Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method click"}
+{"level":30,"time":"2025-02-12T14:55:15.149Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-02-12T14:55:15.149Z","pid":84444,"hostname":"codespaces-d0d085","Take screenshot with options: ":{"path":"/workspaces/rbcn25-mastering-robotcode/results/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-02-12T14:55:15.226Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-02-12T14:55:15.233Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.235Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.237Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.238Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.239Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.240Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.242Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.243Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.245Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Changed active context"}
+{"level":30,"time":"2025-02-12T14:55:15.245Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Changing current active page: page=55ec1f0c-6930-4580-ac21-c69bb42dd2bb"}
+{"level":30,"time":"2025-02-12T14:55:15.245Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Changed active page"}
+{"level":30,"time":"2025-02-12T14:55:15.246Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-02-12T14:55:15.250Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Removed page=e0214926-9b9e-4490-b76d-89be83107df3 from context=fa7b5d45-8ad8-4ccc-833b-7fe7988b9fff page stack"}
+{"level":30,"time":"2025-02-12T14:55:15.253Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-02-12T14:55:15.258Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.258Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-02-12T14:55:15.278Z","pid":84444,"hostname":"codespaces-d0d085","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-02-12T14:55:15.310Z","pid":84444,"hostname":"codespaces-d0d085","msg":"End of node method closeAllBrowsers"}
